@@ -8,14 +8,38 @@ body {
     text-align: center;
 }
 
+/* ---------------------------------------------------- */
 section {
     min-height: 100%;
+    /* hiermit hat jede section 100% auf jedem viewport */
 }
 
+/* ----------------------------------------------------- */
 a {
     text-decoration: none;
+    /* hiermit werden die underlins im a Tag enfernt */
 }
 
+/* ----------------------------------------------------- */
 li {
     list-style-type: none;
+    /* die listenelemnte ohne punkt */
+}
+
+
+
+
+
+
+/* Überschriften StyleS */
+/* #################################################### */
+h1,
+h2,
+h3,
+a {
+    font-family: 'Gaegu', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+    color: rgb(97, 85, 60);
+    text-transform: uppercase;
 }
