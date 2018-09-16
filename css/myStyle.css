@@ -1,2 +1,21 @@
-/* CSS Dokuments */
+/* Standard StyleS */
 /* #################################################### */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+
+section {
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
