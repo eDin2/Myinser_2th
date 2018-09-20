@@ -77,14 +77,16 @@ hr {
 /* HEADER StyleS */
 /* #################################################### */
 header {
-  width: 100%;
+  width: 97%;
   height: 65px;
   position: fixed;
   top: 20px;
   left: 20px;
-  background: rgb(255, 255, 255);
+  background: rgb(228, 225, 225);
   box-shadow: -17px 25px 26px rgba(0, 0, 0, 0.8);
   z-index: 1;
+  border: 1px solid grey;
+  border-radius: 25px;
 }
 
 /* LOGO StyleS */
@@ -149,10 +151,31 @@ header nav ul li:hover {
   opacity: 0.6;
 }
 
-#home img:hover{
-     opacity: 1;
+#home img:hover {
+  opacity: 1;
 }
 
+/* ABOUT StyleS */
+/* #################################################### */
+#about img {
+  width: 200px;
+}
+
+#about img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+#about h4 {
+  font-size: 20px;
+}
+
+#about p {
+  width: 700px;
+  margin: 0 auto 0 auto;
+}
 
 /* ABOUT StyleS */
 /* #################################################### */
