@@ -179,3 +179,35 @@ header nav ul li:hover {
 
 /* ABOUT StyleS */
 /* #################################################### */
+#work {
+  background-color: rgb(167, 167, 167);
+}
+
+#projekte {
+  width: 900px;
+  margin: 0 auto 0 auto;
+}
+
+#projekte ul {
+  padding: 0;
+}
+
+#projekte ul li {
+  width: 33.3%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+#projekte img {
+  width: 280px;
+  height: 179px;
+  border-radius: 10px;
+}
+
+#projekte img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3)
+}
