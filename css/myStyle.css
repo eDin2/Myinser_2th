@@ -177,7 +177,7 @@ header nav ul li:hover {
   margin: 0 auto 0 auto;
 }
 
-/* ABOUT StyleS */
+/* WORK StyleS */
 /* #################################################### */
 #work {
   background-color: rgb(167, 167, 167);
@@ -211,3 +211,6 @@ header nav ul li:hover {
   -o-transform: scale(1.2);
   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3)
 }
+
+/* CONTACT StyleS */
+/* #################################################### */
