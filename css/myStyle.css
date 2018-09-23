@@ -302,5 +302,30 @@ footer {
 }
 
 /* #################################################### */
-/* MEDIA  QUERIES */
+/* Responisve MEDIA  QUERIES */
 /* #################################################### */
+
+/* Tablets StyleS */
+/* #################################################### */
+@media screen and (max-width: 1024px) {
+  header {
+    height: auto;
+    /* die höhe sollte sich automatisch anpassen */
+  }
+
+  header nav {
+    margin-top: 0;
+  }
+
+  #logo {
+    width: 100px;
+    /* das logo muss sich mit dem header anpassen wenn er auf auto geht */
+    margin-top: 5px;
+    /* margin auf 5px damit er in die mitte kommt */
+  }
+}
+
+/* Mobile StyleS */
+/* #################################################### */
+@media screen and (max-width: 480px) {
+}
