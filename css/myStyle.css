@@ -290,7 +290,6 @@ textarea {
 
 /* FOOTER StyleS */
 /* #################################################### */
-
 footer {
   width: 100%;
   height: 55px;
@@ -308,6 +307,8 @@ footer {
 /* Tablets StyleS */
 /* #################################################### */
 @media screen and (max-width: 1024px) {
+  /* HEADER */
+  /* ----------------------------------------------------- */
   header {
     height: auto;
     /* die höhe sollte sich automatisch anpassen */
@@ -317,15 +318,79 @@ footer {
     margin-top: 0;
   }
 
+  header nav ul li {
+    font-size: 12px;
+  }
+
   #logo {
     width: 100px;
     /* das logo muss sich mit dem header anpassen wenn er auf auto geht */
     margin-top: 5px;
     /* margin auf 5px damit er in die mitte kommt */
   }
+
+  /* HOME */
+  /* ----------------------------------------------------- */
+  #home h1 {
+    font-size: 90px;
+    margin-top: 200px;
+  }
+
+  #home h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    padding-top: 12%;
+    margin-top: -50px;
+  }
+
+  /* ABOUT */
+  /* ----------------------------------------------------- */
+  #about p {
+    width: 80%;
+  }
+
+  /* WORK */
+  /* ----------------------------------------------------- */
+  #projekte {
+    width: 100%;
+  }
+
+  #projekte ul li {
+    width: 100%;
+    /* die projekte sollten 100% des devices einnehmen */
+    float: none;
+    /* die list sollten nicht nach nach links geflotet werden */
+  }
+
+  #projekte ul li:last-child {
+    padding-bottom: 20%;
+  }
+
+  /* CONTACT */
+  /* ----------------------------------------------------- */
+  form input, form textarea {
+    width: 60%;
+  }
+
+  .button {
+    width: 62%;
+  }
 }
 
 /* Mobile StyleS */
 /* #################################################### */
 @media screen and (max-width: 480px) {
+  #logo {
+    width: 90%;
+    margin-left: 30px;
+  }
+
+  header nav {
+    margin: 0;
+    float: none;
+  }
+
+
 }
