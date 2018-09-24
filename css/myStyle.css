@@ -31,11 +31,16 @@ li {
 #logo,
 li,
 img,
-.button {
+.button,
+.fa-bars {
   transition: all 300ms;
   -webkit-transition: all 300ms;
   -moz-transition: all 300ms;
   -o-transition: all 300ms;
+}
+
+.fa-bars {
+  display: none;
 }
 
 /* Überschriften StyleS */
@@ -370,7 +375,8 @@ footer {
 
   /* CONTACT */
   /* ----------------------------------------------------- */
-  form input, form textarea {
+  form input,
+  form textarea {
     width: 60%;
   }
 
@@ -383,7 +389,7 @@ footer {
 /* #################################################### */
 @media screen and (max-width: 480px) {
   #logo {
-    width: 90%;
+    width: 90px;
     margin-left: 30px;
   }
 
@@ -392,5 +398,64 @@ footer {
     float: none;
   }
 
+  .fa-bars {
+    font-size: 17px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: right;
+    float: right;
+    margin: 10px 30px 0 0;
+  }
 
+  .fa-bars {
+    opacity: 0.5;
+  }
+
+  header nav ul {
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  header nav ul.open {
+    height: auto;
+  }
+
+  header nav ul li {
+    width: 100%;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 11px;
+    border-top: 1px solid #333333;
+  }
+
+  header nav ul li:hover {
+    background-color: rgb(107, 105, 103);
+  }
+
+  #home h1 {
+    font-size: 60px;
+    margin-top: 200px;
+  }
+
+  #home h2 {
+    width: 70%;
+    height: auto;
+  }
+
+  #projekte img {
+    width: 70%;
+    height: auto;
+  }
+
+  form input,
+  form textarea {
+    width: 70%;
+  }
+
+  .button {
+    width: 72%;
+  }
 }
